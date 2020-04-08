@@ -1,44 +1,18 @@
-# IT Jobs Watch Data
+# Python Environment Project :snake:
 
-## Introduction
-The aim of this project is to create a simple service that can scrape useful data from ITJobswatch.
+## What is this Repo?
+This repo holds the majority of a task that pulls data from ITJobsWatch using a python tool written by [Kieran Cornwall](https://github.com/Filipe-p/It_Jobs_Watch_Data_Package). This task includes a working development, testing and production environment, utilising a Chef pipeline and Jenkins to move the code from start to end.
 
-## Current Scope
-At present the app is set up to be cloned and used to simply scrape the below services:
+## Tools used
+- Git/Github/Bash/Hub
+- Vagrant/Chef
+- Packer
+- AWS/EC2
+- Atom/Sublime
+- Python/Pycharm
+- Trello [Scrum Board](https://trello.com/b/yw9Ghpin/pythonenvproject)
+- Jenkins
 
-1. Home page top 30 job/roles / skills which can be found [here]()
+## Installation
 
-The aim will be to expand this to further services such as:
-
-* Regular polling of pages and writing to a database for longer terms stats
-* Bespoke calls for specific job role data
-
-And much more.
-
-## Usage
-_Pre-Requisites_
-* Pycharm IDE
-* Python 3.x + installed
-
-### Installing packages
-The necessary packages needed to run this program should automatically be picked up by pycharm. You may find a a few pop ups within the IDE that state there are dependencies missing, if you simply install these through the IDE you should be set up correctly.  
-
-### Running tests
-
-To test whether the program will work from your machine:
- 
- * Ensure the `config.ini` file has the test environment set to `live`
- * Click the `Terminal` icon which can be found on the menu in the bottom left of Pycharm.
-* Ensure you're in the root path of the project and type `python -m pytest tests/`
-
-This should execute the tests if any fail you may have issues with this program.
-
-### Running and using the program
-To use the program simply right click on the `main.py` file and then click `Run 'main'`. This will run the command line user interface.
-
-Follow the instructions to download via the various options given.
-
-# Next steps
-* Adding a job details search option (essentially be able to search for a specific role and return the details in a CSV)
-* create a connected database for full deployment
-* Build a scheduler as part of a full deployment to poll and add to the database 
+## Running/Managing
