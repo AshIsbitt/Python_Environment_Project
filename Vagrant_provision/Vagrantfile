@@ -11,7 +11,7 @@ Vagrant.configure("2") do |config|
   config.vm.network "private_network", ip: '192.168.10.100'
   config.hostsupdater.aliases = ["development.local"]
 
-  config.vm.synced_folder '/Users/AshIsbitt/Desktop/Python_Environment_Project', '/home/ubuntu/Python_Environment_Project'
+  config.vm.synced_folder '/Users/AshIsbitt/Desktop/Python_Environment_Project/Starter_Code', '/home/ubuntu/Python_Environment_Project'
 
   config.vm.provision 'shell', path: 'provision.sh'
 
